@@ -1,0 +1,27 @@
+.container {
+	border: 5px solid #ffcc5c;
+	display: flex;
+	/* height: 100%;
+	align-items: center;  */
+	flex-direction: column;
+}
+
+.container > div {
+	flex: 1;
+}
+
+
+/* Position of elements in flex container
+.logout {
+	align-self: flex-start;
+}
+
+.search {
+	align-self: flex-end;
+}
+
+.home {
+	align-self: flex-end;
+}
+
+*/
