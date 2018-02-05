@@ -1,207 +1,149 @@
-<html>
-	<head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
 	<title> Gunjan Tomer</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<style>
-
-		header,nav, a, img, li, section, article {
-			transition: all 1s;
-			-moz-transition: all 1s;
-			-webkit-transition: all 1s;
-			-o-transition: all 1s;
-		}
-		html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-		div.container {
-			width: 100%
-			border: 1px solid red;
-		}
-
-		nav {
-				float: left;
-				max-width: 160px;
-				margin: 0;
-				padding: 1em;
-			}
-
-			nav ul {
-				list-style-type: none;
-				padding: 0;
-			}
-			nav ul a {
-				text-decoration: none;
-			}
-
-			section ul {
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
-				overflow: hidden;
-				background-color: #333
-			}
-
-			section li {
-				float: left;
-			}
-
-			section li a{
-				display: inline-block;
-				color: white;
-				text-align: center;
-				padding: 14px 16px;
-				text-decoration: none;
-			}
-
-			section li a:hover{
-				background-color: #111;
-			}
-			section {
-				width:100%;
-				border-left: 1px solid gray;
-				overflow: hidden;
-			}
-
-			article {
-				margin-left: 170px;
-				border-left: 1px solid gray;
-				padding: 1em;
-				overflow: hidden;
-			}
-
-			.floated-images {
-				float: left;
-				margin-right: 20px
-			}
-
-
-	</style>
+	<link rel="stylesheet" href="index.css">
+	<link rel="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body class="w3-light-grey">
-	<div class="container">
-			<section id="side-bar">
-				<ul>
-					<li><a href="Logo">Logo</a></li>
-					<li><a href="Home">Home</a></li>
-					<li><a href="#About">About</a></li>
-					<li><a href="#Projects">Projects</a></li>
-					<li><a href="#Contact">Contact</a></li>
-				</ul>
-			</section>
-			<nav>
-				<ul>
-					<li><a href="https://www.linkedin.com/in/gunjantomer" target="_blank"><i class="fa fa-linkedin" style="font-size: 40px"></i></a></li>
-					<br>
-					<li><a href="https://github.com/alchemist009/" target="_blank"><i class="fa fa-github-alt" style="font-size:40px"></i></a></li>
-					<br>
-					<li><a href="https://www.facebook.com/gunjan.tomer"><i class="fa fa-facebook" style="font-size: 40px"></i></a></li>
-				</ul>
-			</nav>
-			<article>
-				<h1 id="Welcome">Welcome</h1>
-				<img src="https://i.imgur.com/mBQfAAX.jpg" class="floated-images" width="40%" max-width="100%">
-				<p>
-					<b>Gunjan Tomer <br>
-					Graduate Student <br>
-					Computer Science <br>
-					UT Dallas
-				</b>
-				</p>
-			</article>
-
-			<article>
-				<h1 id="About">ABOUT</h1>
-				<p>
-					<div class="w3-container w3-card-2 w3-white w3-margin-bottom">
-					Hi! My name is Gunjan Tomer and I am a graduate student in Computer
-					Science at the University of Texas at Dallas. I am specializing in 
-					Intelligent Systems and working on various projects in Machine Learning and Aritficial Intelligence.
+	<div>
+		<ul>
+			<li style="float: left"><a href="Logo">Logo</a></li>
+			<li style="float: left"><a href="Home">Home</a></li>
+			<li style="float: left"><a href="#About">About</a></li>
+			<li style="float: left"><a href="#Projects">Projects</a></li>
+			<li style="float: left"><a href="#Contact">Contact</a></li>
+		</ul>
+	</div>
+	<div class="container-fluid text-center">
+		<div class="row content">
+			<div class="col-sm-2 sidenav">
+				<nav>
+					<ul>
+						<li><a href="https://www.linkedin.com/in/gunjantomer" target="_blank"><i class="fa fa-linkedin" style="font-size: 40px"></i></a></li>
+						<li><a href="https://github.com/alchemist009/" target="_blank"><i class="fa fa-github-alt" style="font-size:40px"></i></a></li>
+						<li><a href="https://www.facebook.com/gunjan.tomer"><i class="fa fa-facebook" style="font-size: 40px"></i></a></li>
+					</ul>
+				</nav>
+			</div>
+			<div class="col-sm-8 text-left">
+				<div>
+					<article>
+						<h1 id="Welcome">Welcome</h1>
+						<img src="https://i.imgur.com/mBQfAAX.jpg" class="floated-images" alt="Gunjan Tomer">
+						<p>
+							<b>Gunjan Tomer <br>
+								Graduate Student <br>
+								Computer Science <br>
+								UT Dallas
+							</b>
+						</p>
+					</article>
 				</div>
-				</p>
-			</article>
-
-			<article>
-				<h1 id="Projects">PROJECTS</h1>
-				<p>
-					<div class="w3-container w3-card-2 w3-white w3-margin-bottom">
-						<div>
-						<h3>MedBot - HackUTD 2017</h3>
+				<div>
+					<article>
+						<h1 id="About">ABOUT</h1>
 						<p>
-							Designed a conversational bot with a Machine Learning backend to diagnose different diseases based on the symptoms input by the user in FB chat. Used the wit.ai API to handle responses and Naive Bayes and Hidden Markov Models to make accurate predictions of the diseases.
+							<div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+								Hi! My name is Gunjan Tomer and I am a graduate student in Computer
+								Science at the University of Texas at Dallas. I am specializing in 
+								Intelligent Systems and working on various projects in Machine Learning and Aritficial Intelligence.
+							</div>
 						</p>
-					</div>
-						<hr>
-						<div>
-						<h3>Mining the Water Table - DrivenData Challenge</h3>
+					</article>
+				</div>
+				<div>
+					<article>
+						<h1 id="Projects">PROJECTS</h1>
 						<p>
-							Made predictions on the operational status of hand pumps across Tanzania based on data provided by the Tanzanian Ministry for a data competition organized by DrivenData. Used various ML models like Random Forests, Gradient Boosting, Linear SVC, Logistic Regression to compare accuracies and retain the best prediction results with the help of scikit-learn and pandas libraries in Python.
-						</p>
-						<hr>
-						<div>
-						<h3>Android App Development</h3>
-						<p>
-							<h4>Minimalistic Weather App</h4>
-							<p>Made a weather app using the OpenWeatherMaps API to fetch localized weather data. Used various REST API features in a minimalistic, intuitive interface. Used the FusedLocationProviderClient API to monitor user location, also allowing manual locations and location history for weather updates including temperature, humidity, and pressure in different scales.</p>
-							<h4></h4>
-							<h4>Contacts Manager</h4>
-							<p>Designed a personalized contact manager app with options to add, edit and delete contacts, backup contacts to external storage or to Google Drive.</p>
-						</p>
-						<hr>
-						<div>
-							<h3>Implementation of Advanced algorithms and Data Structures</h3>
-							<p>
-								Implemented complex algorithms for flow problems, tour problems, complex data structures and a custom version of the Big Integer class in Java from scratch for the Implementation of Advanced Algorithms and Data Structures course. Used JUnit for unit testing on IntelliJ and Eclipse platforms.
-							</p>
-						</div>
-						<hr>
-						<div>
-							<h3>Machine Learning Models and Spam/Ham Classifier</h3>
-							<p>
-								Coded various Machine Learning models from scratch as part of Machine Learning coursework at UT Dallas. Implemented Decision Tree, Logistic Regression in Java and a Naive Bayes Classifier in Python. Used the Naive Bayes classifier to build a spam/ham classifier which performed with an accuracy of 84% on real world data.
-							</p>
-						</div>
-						<hr>
-						<div>
-							<h3>Database Design and Web Programming Project</h3>
-							<p>
-								Developed an efficient Airport Management System including backend design using MySQL, MAMP, PHP and frontend design using HTML5, AngularJS and CSS. Implemented CRUD operations on the flight database using a fully functional webpage.
-							</p>
-						</div>
-						<hr>
-						<div>
-							<h3>Three-dimensional Scanner using Computer Vision</h3>
-							<p>
-								Designed a three-dimensional scanner capable of creating accurate scans of objects using the resolution of shadows from a structured light source.
-								Used a simple laser and a custom frame to create shadows of the object and a high-resolution camera to record a sequence of images followed by processing using the Camera calibration and the Image Processing Toolbox in MATLAB. Used the ICP(Iterative Closest Point) algorithm to create a watertight mesh from the scans ready for 3-D printing.
-							</p>
-						</div>
+							<div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+								<div>
+									<h3>MedBot - HackUTD 2017</h3>
+									<p>
+										Designed a conversational bot with a Machine Learning backend to diagnose different diseases based on the symptoms input by the user in FB chat. Used the wit.ai API to handle responses and Naive Bayes and Hidden Markov Models to make accurate predictions of the diseases.
+									</p>
+								</div>
+								<hr>
+								<div>
+									<h3>Mining the Water Table - DrivenData Challenge</h3>
+									<p>
+										Made predictions on the operational status of hand pumps across Tanzania based on data provided by the Tanzanian Ministry for a data competition organized by DrivenData. Used various ML models like Random Forests, Gradient Boosting, Linear SVC, Logistic Regression to compare accuracies and retain the best prediction results with the help of scikit-learn and pandas libraries in Python.
+									</p>
+								</div>
+								<hr>
+								<div>
+									<h3>Android App Development</h3>
+									<p>
+										<h4>Minimalistic Weather App</h4>
+										<p>Made a weather app using the OpenWeatherMaps API to fetch localized weather data. Used various REST API features in a minimalistic, intuitive interface. Used the FusedLocationProviderClient API to monitor user location, also allowing manual locations and location history for weather updates including temperature, humidity, and pressure in different scales.</p>
+										<h4>Contacts Manager</h4>
+										<p>Designed a personalized contact manager app with options to add, edit and delete contacts, backup contacts to external storage or to Google Drive.</p>
+									</p>
+								</div>
+								<hr>
+								<div>
+									<h3>Implementation of Advanced algorithms and Data Structures</h3>
+									<p>
+										Implemented complex algorithms for flow problems, tour problems, complex data structures and a custom version of the Big Integer class in Java from scratch for the Implementation of Advanced Algorithms and Data Structures course. Used JUnit for unit testing on IntelliJ and Eclipse platforms.
+									</p>
+								</div>
+								<hr>
+								<div>
+									<h3>Machine Learning Models and Spam/Ham Classifier</h3>
+									<p>
+										Coded various Machine Learning models from scratch as part of Machine Learning coursework at UT Dallas. Implemented Decision Tree, Logistic Regression in Java and a Naive Bayes Classifier in Python. Used the Naive Bayes classifier to build a spam/ham classifier which performed with an accuracy of 84% on real world data.
+									</p>
+								</div>
+								<hr>
+								<div>
+									<h3>Database Design and Web Programming Project</h3>
+									<p>
+										Developed an efficient Airport Management System including backend design using MySQL, MAMP, PHP and frontend design using HTML5, AngularJS and CSS. Implemented CRUD operations on the flight database using a fully functional webpage.
+									</p>
+								</div>
+								<hr>
+								<div>
+									<h3>Three-dimensional Scanner using Computer Vision</h3>
+									<p>
+										Designed a three-dimensional scanner capable of creating accurate scans of objects using the resolution of shadows from a structured light source.
+										Used a simple laser and a custom frame to create shadows of the object and a high-resolution camera to record a sequence of images followed by processing using the Camera calibration and the Image Processing Toolbox in MATLAB. Used the ICP(Iterative Closest Point) algorithm to create a watertight mesh from the scans ready for 3-D printing.
+									</p>
+								</div>
+							</div>
+						</article>
 					</div>
+					<div>
+						<article>
+							<h1 id="Hobbies">INTERESTS</h1>
+							<div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+								<div>
+									<p>Reading, more specifically collecting a whole lot of books and then cursing myself for not finding the time to read them all.</p>
+									<p>Basketball. I like to think I'm good at it, but it's really hard to find a challenging opponent among my friends.</p>
+									<p>Video Games. I can go for hours on end playing a good game, unless there are assignments to finish or appointments to keep.</p>
+								</div>
+							</div>
+						</article>
 					</div>
-					</div>
-				</p>
-			</article>
+					<div>
+						<article>
+							<h1 id="Contact">CONTACT</h1>
+							<div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+								<h4><a href="mailto:gunjantomer92@gmail.com" target="_blank">Send me email</a></h4>
+								<h4><a href="https://www.linkedin.com/in/gunjantomer" target="_blank">Connect on LinkedIn</a></h4>
+							</div>
 
-			<article>
-				<h1 id="Hobbies">INTERESTS</h1>
-				<div class="w3-container w3-card-2 w3-white w3-margin-bottom">
-					<h7>
-						<ul>
-							<li>Reading, more specifically collecting a whole lot of books and then cursing myself for not finding the time to read them all.</li>
-							<li>Basketball. I like to think I'm good at it, but it's really hard to find a challenging opponent among my friends.</li>
-							<li>Video Games. I can go for hours on end playing a good game, unless there are assignments pending or appointments to keep.</li>
-						</ul>
-							</h7>
-						</div>
-			</article>
+						</article>	
+					</div>
 
-			<article>
-				<h1 id="Contact">CONTACT</h1>
-				<div class="w3-container w3-card-2 w3-white w3-margin-bottom">
-					<h4><a href="mailto:gunjantomer92@gmail.com">Send me email</a></h4>
-					<h4><a href="https://www.linkedin.com/in/gunjantomer">Connect on LinkedIn</a></h4>
-			</article>
-</div>
-	
-</body>
-</html>
+				</div>				
+				<div class="col-sm-2 text-right">
+					<h1>hello</h1>
+				</div>
+			</div>
+		</div>
+	</body>
+	</html>

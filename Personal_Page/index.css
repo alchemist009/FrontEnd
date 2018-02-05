@@ -1,0 +1,78 @@
+header,nav, a, img, li, section, article {
+		transition: all 1s;
+		-moz-transition: all 1s;
+		-webkit-transition: all 1s;
+		-o-transition: all 1s;
+	}
+	html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+	/*div.container {
+		width: 80%;
+		border: 1px solid gray;
+	}*/
+
+	/*#container-left {
+		width: 100%;
+		border: 1px solid gray;
+		float: left;
+	}*/
+
+	#page-container {
+		width: 100%;
+		border: 1px solid gray;
+		margin-right: 200px;
+	}
+
+	nav {
+		float: left;
+		width: 100%;
+		max-width: 170px;
+		margin: 0;
+		padding: 0.5em;
+	}
+
+	nav ul {
+		float: left;
+		list-style-type: none;
+		padding: 1px;
+	}
+	nav ul a {
+		text-decoration: none;
+	}
+
+	article {
+/*		margin-left: 170px;
+		margin-right: 170px;*/
+		border-left: 1px;
+		padding: 1em;
+		overflow: hidden;
+	}
+
+	.floated-images {
+		float: left;
+/*		margin-right: 20px
+*/	}
+
+	ul {
+		width: 100%;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: teal;
+	}
+
+	li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+
+	li a:hover {
+		background-color: #4CAF50;
+	}
+
+	.active {
+		background-color: #4CAF50;
+	}
