@@ -1,158 +1,187 @@
+
 <!DOCTYPE html>
-<html>
-<title>Gunjan Tomer</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="index.css">
-<style>
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
-</style>
-<body class="w3-light-grey">
+<html lang="en">
+  <head>
+    <title>Gunjan Tomer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Website of Koulick Sankar Paul (MS in CS student - Aug. 2016 to Dec. 2018)">
+    <meta name="keywords" content="movie app", "big data", "amazon web services", "data science", "data analytics", "cloud computing", "android apps", "unix", "sql server", "machine learning", "natural language processing", "artificial intelligence">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/index.css" type="text/css">
+    <link rel="shortcut icon" href="img/KSP_logo.png" type="img/png">
+  </head>
 
-<!-- Page Container -->
-<div class="w3-content w3-margin-top" style="max-width:1400px;">
-  <div>
-    <ul>
-      <li style="float: left"><a href="Logo">Logo</a></li>
-      <li style="float: left"><a href="Home">Home</a></li>
-      <li style="float: left"><a href="#About">About</a></li>
-      <li style="float: left"><a href="#Projects">Projects</a></li>
-      <li style="float: left"><a href="#Contact">Contact</a></li>
-    </ul>
-  </div>
-
-  <!-- The Grid -->
-  <div class="w3-row-padding">
+  <body id="home">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+        <li class="active"><a href="#home"><i class="fa fa-home"></i> Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      </div>
+    </nav>
   
-    <!-- Left Column -->
-    <div class="w3-third" id="imagediv">
-    
-      <div class="w3-white w3-text-grey w3-card-4">
-        <div class="w3-display-container">
-          <img src="https://i.imgur.com/mBQfAAX.jpg" style="width:100%" alt='Avatar'>
-          <div class="w3-display-bottomleft w3-container w3-text-white">
-            <h2 id="Home">Gunjan Tomer</h2>
-          </div>
+    <div class="container-fluid text-center">    
+      <div class="row content">
+        <div class="col-sm-2 sidenav">
+          <a href="https://www.facebook.com/KoulickSankarPaul" target="_blank"><i class="fa fa-facebook"></i></a>
+          <br>
+          <a href="https://twitter.com/KoulickSankarP" target="_blank"><i class="fa fa-twitter"></i></a>
+          <br>
+          <a href="https://github.com/koulicksankarpaul" target="_blank"><i class="fa fa-github"></i></a>
+          <br>
+          <a href="https://www.linkedin.com/in/koulicksankarpaul/" target="_blank"><i class="fa fa-linkedin"></i></a>
         </div>
-<!--         <div class="w3-container">
-          <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Graduate Student</p>
-          <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>UT Dallas</p>
-          <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>gunjantomer92@gmail.com</p>
-          <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>
-          (469) 216 8427</p>
-          <hr>
 
-          <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>Skills</b></p>
-          <p>Computer Vision</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:90%">90%</div>
+        <div class="col-sm-8 text-left">          
+          <div id="about">
+            <h1>About Me</h1>
+            <img class="profile" src="img/KSP_profile.jpg" alt="Koulick Sankar Paul" title="Near Ronald Kirk Bridge, Dallas, TX (Dec. '16)">
+            <h2 class="about-content">Name</h2>
+            <p class="about-content">Koulick Sankar Paul</p>
+            <h2 class="about-content">Address</h2>
+            <p class="about-content">7720 McCallum Boulevard, Apt. No. 2048<br>Dallas, TX - 75252.</p>
+            <h2 class="about-content">Introduction</h2>
+            <p class="about-content">
+              Experienced .NET Software Developer seeking Internship/Full Time opportunities doing MS in Computer Sc. at UT Dallas
+            </p>
+            <h2 class="about-content">Summary</h2>
+            <div>
+              <ul id="about-ul">
+                <li>Current Computer Science Masters student at The University of Texas at Dallas.</li>
+                <li>Currently working on developing skills in the areas of Cloud Computing (Amazon Web Services), Artificial Intelligence, Machine Learning, and Natural Language Processing.</li>
+                <li>Previously worked as a .NET Software Developer for 5 and a 1/2 years developing Windows desktop and web applications at Cognizant Technology Solutions for various travel intermediary companies.</li>
+                <li>Skill Set:
+                  <br>I.  Programming Languages : C# (6.0/7.0), C, C++, Java, Python
+                  <br>II. Architecture: .NET 4.0, 4.5, 4.6, PRISM, SOLID, MVVM
+                  <br>III.  Web Technologies : HTML, CSS, JavaScript, XML
+                  <br>IV. IDEs: MS Visual Studio, Eclipse, CodeBlocks
+                  <br>V.  Databases : Microsoft SQL Server, ORACLE SQL Developer, MySQL
+                  <br>VI. Solution Stack: MAMP
+                </li>
+              </ul>
+            </div>
+            <a class="btn btn-success btn-lg" href="files/KSP_resume.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> Download my CV</a>
           </div>
-          <p>Machine Learning</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:80%">
-              <div class="w3-center w3-text-white">80%</div>
+
+          <!-- Projects displayed as a vertical timeline -->
+          <div id="projects">
+            <h1>Projects</h1>
+            <!-- Start Project timeline with first block to the left side -->
+            <div class="project-timeline">
+              <!-- Start listing projects -->
+              <h2>2017</h2>
+              <div class="project timeline-left">
+                <h3>Nov. - Dec. 2017</h3>
+                <h4>Implementation of a semantic search application using NLP features and techniques (Java)</h4>
+                <p>
+                Implementation of a keyword-based strategy which was further improved using lemmas, stem, WordNet synsets, etc. using Stanford CoreNLP features and SOLR indexing techniques.<br>
+                </p>
+              </div>
+
+              <div class="project timeline-right">
+                <a href="https://github.com/alchemist009/Android/tree/master/MovieQuiz" target="_blank">
+                <h3>Nov 2017</h3>
+                <h4>Movie Quiz (Android App)</h4>
+                <p>
+                Implemented an app which will allow a user (for e.g. a movie buff) to answer questions related to Hollywood movie trivia.
+                </p>
+                </a>
+              </div>
+
+              <div class="project timeline-left">
+                <a href="https://github.com/alchemist009/Android/tree/master/CustomPhonebookApp" target="_blank">
+                <h3>Oct 2017</h3>
+                <h4>Miniature Contact Manager (Android App)</h4>
+                <p>
+                 Implemented an app which mimicked the contact manager in an Android phone with simple features.
+                </p>
+                </a>
+              </div>
+
+              <div class="project timeline-right">
+                <a href="https://github.com/alchemist009/DBdesign" target="_blank">
+                <h3>April 2017</h3>
+                <h4>Database CRUD operations for Airport Management System (Windows/PHP/MySQL) </h4>
+                <p>
+                Developed a database for managing airports and implemented CRUD operations using MAMP (MySQL, and PHP).
+                </p>
+                </a>
+              </div>
+
+              <div class="project timeline-left">
+                <h3>March 2017</h3>
+                <h4>Simulation of BFS in asynchronous general networks (Unix/Java)</h4>
+                <p>
+                Simulated an asynchronous distributed system using multi-threading.
+                </p>
+              </div>
+              
+              <div class="project timeline-right">
+                <h3>Feb 2017</h3>
+                <h4>Simulation of Bellman-Ford algorithm in synchronous general networks (Unix/Java)</h4>
+                <p>
+                Simulated a synchronous distributed system using multi-threading.
+                </p>
+              </div>
+
+              <h2>2016</h2>
+              <div class="project timeline-left">
+                <h3>Nov. - Dec. 2016</h3>
+                <h4>Modification of Unix v6 File System (Unix/C)</h4>
+                <p>
+                Developed a program which allows a user access to the file system of a foreign operating system, the modified Unix v6 file system.
+                </p>
+              </div>
+
+              <div class="project timeline-right">
+                <h3>Oct. 2016</h3>
+                <h4>Implementation of custom shell in Unix (Unix/C)</h4>
+                <p>
+                Developed own shell to invoke child processes and execute native commands.
+                </p>
+              </div>
             </div>
           </div>
-          <p>Front-end development</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:75%">80%</div>
-          </div>
-          <p>Android App development</p>
-          <div class="w3-light-grey w3-round-xlarge w3-small">
-            <div class="w3-container w3-center w3-round-xlarge w3-teal" style="width:50%">60%</div>
-          </div>
-          <br>
+          <!-- End of projects section -->
 
-          <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>Languages</b></p>
-          <p>English</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+          <div id="contact">
+            <h1>Contact</h1>
+            <ul>
+              <li><a href="/cdn-cgi/l/email-protection#82e9edf7eeebe1e9babbc2e5efe3ebeeace1edef" target="_blank"><i class="fa fa-envelope-o"></i> <span class="__cf_email__" data-cfemail="452e2a30292c262e7d7c052228242c296b262a28">[email&#160;protected]</span></a></li>
+              <li><a href="/cdn-cgi/l/email-protection#3259414203040201010272474656535e5e53411c575647" target="_blank"><i class="fa fa-envelope-o"></i> <span class="__cf_email__" data-cfemail="88e3fbf8b9beb8bbbbb8c8fdfcece9e4e4e9fba6edecfd">[email&#160;protected]</span></a></li>
+            </ul>
           </div>
-          <p>Hindi</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
-          </div>
-          <p>German</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:45%"></div>
-          </div>
-          <p>Sanskrit</p>
-          <div class="w3-light-grey w3-round-xlarge">
-            <div class="w3-round-xlarge w3-teal" style="height:24px;width:70%"></div>
-          </div>
-          <br>
-        </div> -->
-      </div><br>
-
-    <!-- End Left Column -->
-    </div>
-
-    <!-- Middle Column -->
-    <div class="w3-twothird">
-    
-      <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Work Experience</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Teaching Assistant / Computer Science Department / UT Dallas</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>September 2017  <span class="w3-tag w3-teal w3-round">Current</span></h6>
-          <p>Evaluating assignments in Discrete Math and Programming Fundamentals while helping students better understand the coursework.</p>
-          <hr>
         </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Instructor / Computer Science Outreach / UT Dallas</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Aug 2016 - Aug 2017</h6>
-          <p>Conducted regular workshops on programming and electronic design for school students and Undergrads along with Summer camps. Taught Java, Python, HTML, CSS etc.</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Software Intern / HCL Infosystems Ltd.</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2014 - Jul 2014</h6>
-          <p>Implemented a system for Enterprise Resource Planning using the SAP IDE and the ABAP Workbench.</p><br>
+        
+        <div class="col-sm-2 text-right">
+          <img class="ad" src="img/Work_Surveyors_Wanted_NASA.jpg" alt="Surveyors Wanted" title="Surveyors Wanted to Explore Mars and its Moons">
+          <p class="about-content">
+          Surveyors Wanted to Explore Mars and its Moons:
+          <br>
+          Have you ever asked the question, what is out there? So have we! That curiosity leads us to explore new places like Mars and its moons, Phobos and Deimos. Just what lies beyond the next valley, canyon, crater, or hill is something we want to discover with rovers and with humans one day too.
+          <br>
+          <a href="https://mars.nasa.gov/multimedia/resources/mars-posters-explorers-wanted/">Source</a>
+          <p>
         </div>
       </div>
-
-      <div class="w3-container w3-card-2 w3-white">
-        <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>Education</h2>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>University of Texas at Dallas</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016-Present</h6>
-          <p>MS in Computer Science</p>
-          <hr>
-        </div>
-        <div class="w3-container">
-          <h5 class="w3-opacity"><b>Indraprastha University</b></h5>
-          <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2011 - 2015</h6>
-          <p>B. Tech in Electronics and Communication Engineering</p>
-          <hr>
-        </div>
-      </div>
-
-    <!-- End Right Column -->
-    </div>
-
-    <!-- Right Column -->
-    <div class="w3-third" id="rightpane" >
-      <h1>Hello</h1>
     </div>
     
-  <!-- End Grid -->
-  </div>
-  
-  <!-- End Page Container -->
-</div>
-
-<footer class="w3-container w3-teal w3-center w3-margin-top">
-  <p>Find me on social media.</p>
-  <a href="https://www.facebook.com/gunjan.tomer" target="_blank"><i class="fa fa-facebook-official w3-hover-opacity" style="font-size:28px"></i></a>
-            &nbsp;&nbsp;&nbsp;
-            <a href="https://github.com/alchemist009/" target="_blank"><i class="fa fa-github w3-hover-opacity" style="font-size:28px"></i></a>
-            &nbsp;&nbsp;&nbsp;
-            <a href="https://www.linkedin.com/in/gunjan-tomer/" target="_blank"><i class="fa fa-linkedin w3-hover-opacity" style="font-size:28px"></i></a>
-            <br><br>
-</footer>
-
-</body>
+    <footer class="container-fluid text-center">
+      <p>Developed by Koulick Sankar Paul (Feb., 2018)</p>
+    </footer>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/d07b1474/cloudflare-static/email-decode.min.js"></script></body>
 </html>
