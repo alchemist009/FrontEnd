@@ -10,16 +10,15 @@ header,nav, a, img, li, section, article {
 		border: 1px solid gray;
 	}*/
 
-	/*#container-left {
-		width: 100%;
-		border: 1px solid gray;
-		float: left;
-	}*/
-
 	#page-container {
 		width: 100%;
 		border: 1px solid gray;
 		margin-right: 200px;
+	}
+
+	#rightpane {
+		float: right;
+		margin-left: 2px;
 	}
 
 	nav {
